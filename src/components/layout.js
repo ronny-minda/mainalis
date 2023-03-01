@@ -2,13 +2,13 @@ import { useRouter } from 'next/router'
 import Head from "next/head"
 import React, { useEffect, useState } from 'react'
 
+
+
+
+
+
+
 const Layout = ({ children }) => {
-
-
-
-
-
-
 
     useEffect(() => {
 
@@ -176,9 +176,6 @@ const Layout = ({ children }) => {
 
 
     }, [])
-
-
-
 
 
     return (
