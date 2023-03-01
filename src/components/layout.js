@@ -193,17 +193,6 @@ const Layout = ({ children }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
 
-                <link rel="stylesheet" href="../assets/css/bootstrap.css"></link>
-
-                <link rel="stylesheet" href="../assets/css/maicons.css"></link>
-
-                <link rel="stylesheet" href="../assets/vendor/animate/animate.css"></link>
-
-                <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css"></link>
-
-                <link rel="stylesheet" href="../assets/vendor/fancybox/css/jquery.fancybox.css"></link>
-
-                <link rel="stylesheet" href="../assets/css/theme.css"></link>
 
 
 
