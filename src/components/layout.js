@@ -264,7 +264,7 @@ const Layout = ({ children }) => {
                             <div class="hero-carousel-item">
                                 <img src="../assets/img/bg_image_1.jpg" alt=""></img>
                                 <div class="img-caption">
-                                    <div class="subhead">We're design studio believe in ideas</div>
+                                    <div class="subhead">We re design studio believe in ideas</div>
                                     <h1 class="mb-4">Creative Design</h1>
                                     <a href="#services" class="btn btn-outline-light">Get Started</a>
                                 </div>
