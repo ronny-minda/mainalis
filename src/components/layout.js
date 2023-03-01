@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Head from "next/head"
-import React, { useLayoutEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Layout = ({ children }) => {
 
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 
 
 
-    useLayoutEffect(() => {
+    useEffect(() => {
 
         setTimeout(() => {
             setData(data)
