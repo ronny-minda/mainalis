@@ -3,11 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
-      <body>
-        <Main />
-        <NextScript />
-
+      <Head >
         <script async src="../assets/js/jquery-3.5.1.min.js" ></script>
 
         <script async src="../assets/js/bootstrap.bundle.min.js" ></script>
@@ -25,6 +21,12 @@ export default function Document() {
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+
+
 
 
       </body>

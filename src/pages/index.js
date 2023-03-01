@@ -1,4 +1,7 @@
+import Image from 'next/image'
+
 import Layout from '../components/layout'
+
 
 export default function Home() {
   return (
@@ -19,7 +22,7 @@ export default function Home() {
                 </div>
                 <div class="col-lg-6 py-3">
                   <div class="about-img">
-                    <img src="../assets/img/about.jpg" alt=""></img>
+                    <img src="../assets/img/about.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -37,7 +40,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/web_development.svg" alt=""></img>
+                      <img src="../assets/img/icons/web_development.svg" alt="" />
                     </div>
                     <h5>Web Development</h5>
                   </div>
@@ -45,7 +48,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/graphics_design.svg" alt=""></img>
+                      <img src="../assets/img/icons/graphics_design.svg" alt="" />
                     </div>
                     <h5>Graphics Design</h5>
                   </div>
@@ -54,7 +57,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/seo_and_marketing.svg" alt=""></img>
+                      <img src="../assets/img/icons/seo_and_marketing.svg" alt="" />
                     </div>
                     <h5>SEO & Marketing</h5>
                   </div>
@@ -63,7 +66,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/customer_services.svg" alt=""></img>
+                      <img src="../assets/img/icons/customer_services.svg" alt="" />
                     </div>
                     <h5>Customer Services</h5>
                   </div>
@@ -72,7 +75,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/app_development.svg" alt=""></img>
+                      <img src="../assets/img/icons/app_development.svg" alt="" />
                     </div>
                     <h5>App Development</h5>
                   </div>
@@ -81,7 +84,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/ui_ux_design.svg" alt=""></img>
+                      <img src="../assets/img/icons/ui_ux_design.svg" alt="" />
                     </div>
                     <h5>UI/UX Design</h5>
                   </div>
@@ -90,7 +93,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/product_design.svg" alt=""></img>
+                      <img src="../assets/img/icons/product_design.svg" alt="" />
                     </div>
                     <h5>Product Design</h5>
                   </div>
@@ -99,7 +102,7 @@ export default function Home() {
                 <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
                   <div class="text-center">
                     <div class="img-fluid mb-4">
-                      <img src="../assets/img/icons/data_analyst.svg" alt=""></img>
+                      <img src="../assets/img/icons/data_analyst.svg" alt="" />
                     </div>
                     <h5>Data Analyst</h5>
                   </div>
@@ -119,7 +122,7 @@ export default function Home() {
               <div class="owl-carousel team-carousel mt-5">
                 <div class="team-wrap">
                   <div class="team-profile">
-                    <img src="../assets/img/teams/team_1.jpg" alt=""></img>
+                    <img src="../assets/img/teams/team_1.jpg" alt="" />
                   </div>
                   <div class="team-content">
                     <h5>Walter White</h5>
@@ -135,7 +138,7 @@ export default function Home() {
 
                 <div class="team-wrap">
                   <div class="team-profile">
-                    <img src="../assets/img/teams/team_2.jpg" alt=""></img>
+                    <img src="../assets/img/teams/team_2.jpg" alt="" />
                   </div>
                   <div class="team-content">
                     <h5>Sarah Johanson</h5>
@@ -151,7 +154,7 @@ export default function Home() {
 
                 <div class="team-wrap">
                   <div class="team-profile">
-                    <img src="../assets/img/teams/team_3.jpg" alt=""></img>
+                    <img src="../assets/img/teams/team_3.jpg" alt="" />
                   </div>
                   <div class="team-content">
                     <h5>Anna Anderson</h5>
@@ -185,42 +188,42 @@ export default function Home() {
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-1.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-1.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-1.jpg" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-2.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-2.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-2.jpg" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-3.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-3.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-3.jpg" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-4.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-4.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-4.jpg" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-5.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-5.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-5.jpg" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-4 py-3">
                   <div class="portfolio">
                     <a href="../assets/img/portfolio/work-6.jpg" data-fancybox="portfolio">
-                      <img src="../assets/img/portfolio/work-6.jpg" alt=""></img>
+                      <img src="../assets/img/portfolio/work-6.jpg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -238,7 +241,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_1.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_1.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">Sam Watson</div>
@@ -253,7 +256,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_2.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_2.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">Edinson Alfa</div>
@@ -268,7 +271,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_3.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_3.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">May Halloway</div>
@@ -283,7 +286,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_1.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_1.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">Sam Watson</div>
@@ -298,7 +301,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_2.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_2.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">Edinson Alfa</div>
@@ -313,7 +316,7 @@ export default function Home() {
                   </div>
                   <div class="author">
                     <div class="avatar">
-                      <img src="../assets/img/person/person_3.jpg" alt=""></img>
+                      <img src="../assets/img/person/person_3.jpg" alt="" />
                     </div>
                     <div class="d-inline-block ml-2">
                       <div class="author-name">May Halloway</div>
@@ -354,7 +357,7 @@ export default function Home() {
                   <div class="card-blog">
                     <div class="header">
                       <div class="avatar">
-                        <img src="../assets/img/person/person_1.jpg" alt=""></img>
+                        <img src="../assets/img/person/person_1.jpg" alt="" />
                       </div>
                       <div class="entry-footer">
                         <div class="post-author">Sam Newman</div>
@@ -374,7 +377,7 @@ export default function Home() {
                   <div class="card-blog">
                     <div class="header">
                       <div class="avatar">
-                        <img src="../assets/img/person/person_2.jpg" alt=""></img>
+                        <img src="../assets/img/person/person_2.jpg" alt="" />
                       </div>
                       <div class="entry-footer">
                         <div class="post-author">Sam Newman</div>
@@ -394,7 +397,7 @@ export default function Home() {
                   <div class="card-blog">
                     <div class="header">
                       <div class="avatar">
-                        <img src="../assets/img/person/person_3.jpg" alt=""></img>
+                        <img src="../assets/img/person/person_3.jpg" alt="" />
                       </div>
                       <div class="entry-footer">
                         <div class="post-author">Sam Newman</div>
@@ -459,19 +462,19 @@ export default function Home() {
             <div class="container-fluid">
               <div class="row row-cols-md-3 row-cols-lg-5 justify-content-center text-center">
                 <div class="py-3 px-5">
-                  <img src="../assets/img/clients/airbnb.png" alt=""></img>
+                  <img src="../assets/img/clients/airbnb.png" alt="" />
                 </div>
                 <div class="py-3 px-5">
-                  <img src="../assets/img/clients/google.png" alt=""></img>
+                  <img src="../assets/img/clients/google.png" alt="" />
                 </div>
                 <div class="py-3 px-5">
-                  <img src="../assets/img/clients/mailchimp.png" alt=""></img>
+                  <img src="../assets/img/clients/mailchimp.png" alt="" />
                 </div>
                 <div class="py-3 px-5">
-                  <img src="../assets/img/clients/paypal.png" alt=""></img>
+                  <img src="../assets/img/clients/paypal.png" alt="" />
                 </div>
                 <div class="py-3 px-5">
-                  <img src="../assets/img/clients/stripe.png" alt=""></img>
+                  <img src="../assets/img/clients/stripe.png" alt="" />
                 </div>
               </div>
             </div>
