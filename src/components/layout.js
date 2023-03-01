@@ -6,15 +6,12 @@ const Layout = ({ children }) => {
 
 
 
-    const [data, setData] = useState([]);
+
 
 
 
     useEffect(() => {
 
-        setTimeout(() => {
-            setData(data)
-        }, 3000);
 
         /* Sticky Navigation */
         $(function () {
