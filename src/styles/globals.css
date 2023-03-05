@@ -1,0 +1,150 @@
+
+
+body::-webkit-scrollbar {
+    background: #f1f1f1;
+    /* border-radius: 4px; */
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0065e9;
+    border-radius: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.loader {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #0065e9; */
+    background: linear-gradient(324deg, rgba(0,55,126,1) 0%, rgba(68,149,255,1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.Noloader {
+    opacity: 0;
+}
+
+
+
+.loader svg {
+    height: 80px;
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 40px);
+
+    fill: #ffffff00;
+    
+    /* transition: ; */
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    stroke-width: 2;
+    stroke: #ffffff;
+    /* transition: stroke-dashoffset 3s, fill 0.5; */
+
+
+
+}
+
+.loader .stroke {
+    transition-property: stroke-dashoffset;
+    transition-duration: 3s;
+    stroke-dashoffset: 50;
+}
+
+.loader .fill {
+    transition-property: fill;
+    transition-duration: 0.5s;
+    fill: #ffffff;
+}
+
+
+
+
+.loader .bola1 {
+    height: 5px;
+    width: 300px;
+    background-color: #ffffff4e;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(80% - 2.5px);
+}
+
+.loader .bola1 .conte {
+    height: 100%;
+    width: 0%;
+    background-color: #ffffff;
+    transition: 3s cubic-bezier(1.000, 0.000, 0.575, 1.005);
+    
+}
+
+.loader .bola1 .conteLleno {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.logoPrin {
+    width: 150px;
+    /* background-color: red; */
+    fill: #2f89fc;
+    transition: 0.3s;
+}
+
+.logoPrin:hover {
+    fill: #76b2ff;
+}
+
+
+#activoo {
+    background-color: #0065e9;
+    color: #fff;
+}
+
+
+
+.wasa {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #25cf43 0%, #61fd7d 100%);
+    box-shadow: #25cf43 0px 0px 0px 19px;
+
+    animation: wasa 1s linear 0s infinite;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.wasa:hover {
+    height: 85px;
+    width: 85px;
+}
+
+@keyframes wasa {
+    0%   {
+        box-shadow: #25cf44 0px 0px 0px 0px;
+    }
+    100% {
+        box-shadow: #25cf4400 0px 0px 0px 20px;
+    }
+  }

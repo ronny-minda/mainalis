@@ -21,6 +21,9 @@ export default function Document() {
         <script async src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
       </Head>
       <body>
         <Main />
