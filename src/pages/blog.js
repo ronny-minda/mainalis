@@ -318,7 +318,7 @@ const Blog = () => {
                                 {
                                     cadaBlog.map((i) => {
                                         return (
-                                            <div class="col-md-6 col-lg-4 py-3">
+                                            <div key={i.img} class="col-md-6 col-lg-4 py-3">
                                                 <div class="card-blog">
                                                     <div class="header">
                                                         <div class="avatar">

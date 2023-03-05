@@ -437,7 +437,7 @@ export default function Home() {
             {
               nosotros.map((i) => {
                 return (
-                  <div class="team-wrap">
+                  <div key={i.img} class="team-wrap">
                     <div class="team-profile">
                       <img src={i.img} alt="" style={{ height: '400px', objectFit: 'cover' }} />
                     </div>
@@ -480,7 +480,7 @@ export default function Home() {
             {
               proyects.map((i) => {
                 return (
-                  <div class="col-lg-4 py-3">
+                  <div key={i} class="col-lg-4 py-3">
                     <div class="portfolio">
                       <a href={i} data-fancybox="portfolio">
                         <img src={i} alt="" />
@@ -507,7 +507,7 @@ export default function Home() {
               comentarios.map((i) => {
 
                 return (
-                  <div class="card-testimonial">
+                  <div key={i.img} class="card-testimonial">
                     <div class="content"> {i.coment} </div>
                     <div class="author">
                       <div class="avatar">
@@ -561,7 +561,7 @@ export default function Home() {
             {
               cadaBlog.map((i) => {
                 return (
-                  <div class="col-lg-3 py-3">
+                  <div key={i.img} class="col-lg-3 py-3">
                     <div class="card-blog">
                       <div class="header">
                         <div class="avatar">

@@ -3,7 +3,7 @@ import Head from "next/head"
 import Link from "next/link"
 
 
-export default () => {
+export default function MyComponent() {
 
     const contenido = {
         titulo: 'Material corporativo para potenciar la imagen de tu empresa',
@@ -118,7 +118,7 @@ export default () => {
                                         <p class="mb-2">Tags:</p>
                                         {contenido.tags.map((i) => {
                                             return (
-                                                <a class="tag-link" style={{ margin: '5px', cursor: 'pointer' }}>{i}</a>
+                                                <a class="tag-link" key={i} style={{ margin: '5px', cursor: 'pointer' }}>{i}</a>
                                             )
                                         })}
                                         {/* <a href="#" class="tag-link">LifeStyle</a>
@@ -141,7 +141,7 @@ export default () => {
                                         {
                                             contenido.categorias.map((i) => {
                                                 return (
-                                                    <li><a style={{ cursor: 'pointer' }}> {i} </a></li>
+                                                    <li key={i} ><a style={{ cursor: 'pointer' }}> {i} </a></li>
                                                 )
                                             })
                                         }
@@ -189,7 +189,7 @@ export default () => {
                                     <div class="tagcloud">
                                         {contenido.tags.map((i) => {
                                             return (
-                                                <a class="tag-cloud-link" style={{ cursor: 'pointer' }}>{i}</a>
+                                                <a key={i} class="tag-cloud-link" style={{ cursor: 'pointer' }}>{i}</a>
                                             )
                                         })}
                                     </div>

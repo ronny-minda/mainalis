@@ -323,7 +323,7 @@ const Services = () => {
                             comentarios.map((i) => {
 
                                 return (
-                                    <div class="card-testimonial">
+                                    <div key={i.img} class="card-testimonial">
                                         <div class="content"> {i.coment} </div>
                                         <div class="author">
                                             <div class="avatar">

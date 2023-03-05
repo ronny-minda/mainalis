@@ -265,7 +265,7 @@ const About = () => {
                         {
                             nosotros.map((i) => {
                                 return (
-                                    <div class="team-wrap">
+                                    <div key={i.nombre} class="team-wrap">
                                         <div class="team-profile">
                                             <img src={i.img} alt="" style={{ height: '400px', objectFit: 'cover' }} />
                                         </div>

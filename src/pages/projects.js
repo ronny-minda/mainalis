@@ -280,7 +280,7 @@ const Projects = () => {
                         {
                             web.map((i) => {
                                 return (
-                                    <div class="grid-item web">
+                                    <div key={i} class="grid-item web">
                                         <div class="portfolio">
                                             <a href={i} data-fancybox="portfolio">
                                                 <img src={i} alt="" />
@@ -294,7 +294,7 @@ const Projects = () => {
                         {
                             mobile.map((i) => {
                                 return (
-                                    <div class="grid-item mobile">
+                                    <div key={i} class="grid-item mobile">
                                         <div class="portfolio">
                                             <a href={i} data-fancybox="portfolio">
                                                 <img src={i} alt="" />
@@ -308,7 +308,7 @@ const Projects = () => {
                         {
                             dashboard.map((i) => {
                                 return (
-                                    <div class="grid-item dashboard">
+                                    <div key={i} class="grid-item dashboard">
                                         <div class="portfolio">
                                             <a href={i} data-fancybox="portfolio">
                                                 <img src={i} alt="" />
