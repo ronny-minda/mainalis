@@ -658,7 +658,7 @@ export default function Home() {
         <div class="container">
           <div class="text-center">
             <h2 class="title-section mb-3">Mantente en contacto</h2>
-            <p>Solo di hola o escríbenos. Puede enviarnos un correo electrónico manualmente a <a href="mailto:example@mail.com">example@mail.com</a></p>
+            <p>Solo di hola o escríbenos. Puede enviarnos un correo electrónico manualmente a <a href="mailto:mainalisystem@gmail.com">mainalisystem@gmail.com</a></p>
           </div>
           <div class="row justify-content-center mt-5">
             <div class="col-lg-8">

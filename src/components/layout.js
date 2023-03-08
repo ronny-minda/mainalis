@@ -83,10 +83,10 @@ const Layout = ({ children }) => {
                         <div class="row align-items-center">
                             <div class="col-md-8">
                                 <div class="d-inline-block">
-                                    <span class="mai-mail fg-primary"></span> <a href="mailto:contact@mail.com">contact@mail.com</a>
+                                    <span class="mai-mail fg-primary"></span> <a href="mailto:mainalisystem@gmail.com">mainalisystem@gmail.com</a>
                                 </div>
                                 <div class="d-inline-block ml-2">
-                                    <span class="mai-call fg-primary"></span> <a href="tel:+0011223495">+0011223495</a>
+                                    <span class="mai-call fg-primary"></span> <a href="tel:0992292033">0992292033</a>
                                 </div>
                             </div>
                             <div class="col-md-4 text-right d-none d-md-block">
@@ -159,7 +159,7 @@ const Layout = ({ children }) => {
                 </div>
             }
 
-            <a href='#' target='_blank' className='wasa'>
+            <a href="https://api.whatsapp.com/send?phone=593992292033" target='_blank' className='wasa'>
 
                 <Wasa />
 

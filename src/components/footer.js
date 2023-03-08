@@ -15,8 +15,8 @@ const Footer = () => {
                     <div class="col-lg-3 py-3">
                         <h5>Información del contacto</h5>
                         <p>301 The Greenhouse, Custard Factory, London, E2 8DY.</p>
-                        <p>Email: example@mail.com</p>
-                        <p>Telefono: +00 112323980</p>
+                        <p>Email: mainalisystem@gmail.com</p>
+                        <p>Telefono: 0992292033</p>
                     </div>
                     <div class="col-lg-3 py-3">
                         <h5>Compañía</h5>
